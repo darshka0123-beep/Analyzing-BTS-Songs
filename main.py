@@ -81,7 +81,7 @@ plt.ylabel("Number of Songs")
 
 # Prints Interpretation of histogram
 print(
-    "According to the histogram, most fall under the duration between 3 to 5 minutes. The shape of the histogram is a bell curve showing it is likely normally distributed."
+    "According to the histogram, most fall under the duration between 3 to 5 minutes. The shape of the histogram is somewhat a bell curve showing it is approximately distributed."
 )
 print()
 
@@ -112,7 +112,7 @@ plt.tick_params(axis='y', labelsize=8)
 plt.tight_layout()
 
 # Prints Interpretation of scatterplot
-print("According to the scatter plot, we can conclude there is no obvious correlation between track duration and album.")
+print("According to the scatter plot, we can conclude there is no linear correlation between track duration and album. Track lengths stay fairly consistent across BTS's entire discography.")
 print()
 
 plt.show()
