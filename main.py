@@ -1,5 +1,5 @@
 import pandas as pd
-import matplotlib.pyplot as plt
+import matplotlib as plt
 import streamlit as st
 
 # Load data with streamlit caching
@@ -58,7 +58,7 @@ st.write(favSong + " is longer than the median.")
 # find mean
 mean = albumsongdata["spotify_track_duration_ms"].mean()
 st.write("The mean song duration of the data set is: " +str(mean))
-st.write(favSong + " is longer than the mean")
+st.write(favSong + " is longer than the mean.")
 
 st.write("............................................................................................................")
 
